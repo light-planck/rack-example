@@ -1,7 +1,7 @@
 class App
   def call(env)
     status = 200
-    headers = { 'Content-Type' => 'text/plain' }
+    headers = { 'content-type' => 'text/plain' }
     body = ['sample']
     [status, headers, body]
   end
