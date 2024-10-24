@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
+##
 class App
-  def call(env)
+  def call(_)
     status = 200
     headers = { 'content-type' => 'text/plain' }
     body = ['sample']
